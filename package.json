@@ -1,27 +1,53 @@
 {
-  "name": "discord-bot",
-  "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/PluginWizard/Discord-Bot#readme",
-  "bugs": {
-    "url": "https://github.com/PluginWizard/Discord-Bot/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PluginWizard/Discord-Bot.git"
-  },
-  "license": "ISC",
-  "author": "PluginWizard Development Team",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run build && node index.js",
-    "dev": "nodemon index.js",
-    "build": "node build.js"
-  },
-  "dependencies": {
-    "discord.js": "^14.25.1",
-    "dotenv": "^17.2.3"
-  }
+    "type": "commonjs",
+    "name": "pluginwizard_community_discord_bot",
+    "description": "The official community Discord bot for managing the PluginWizard Discord server.",
+    "version": "0.0.1",
+    "homepage": "https://github.com/PluginWizard/PluginWizard-Bot#readme",
+    "license": "ISC",
+    "main": "index.js",
+    "bugs": {
+        "url": "https://github.com/PluginWizard/PluginWizard-Bot/issues"
+    },
+    "author": {
+        "name": "PluginWizard Development Team",
+        "url": "https://github.com/PluginWizard",
+        "email": "COMPANY EMAIL COMING SOON"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PluginWizard/PluginWizard-Bot.git"
+    },
+    "engines": {
+        "node": "20"
+    },
+    "os": [
+        "win32",
+        "linux",
+        "darwin"
+    ],
+    "keywords": [
+        "minecraft, coding, development, pluginwizard, spigot, paper, coding, javascript, discord.js"
+    ],
+    "contributors": [
+        {
+            "name": "Kalbskinder",
+            "email": "COMING SOON",
+            "url": "https://github.com/Kalbskinder"
+        },
+        {
+            "name": "Brentan Rath",
+            "email": "COMPANY EMAIL COMING SOON",
+            "url": "https://github.com/BrentanRath"
+        }
+    ],
+    "scripts": {
+        "start": "npm run build && node index.js",
+        "dev": "nodemon index.js",
+        "build": "node build.js"
+    },
+    "dependencies": {
+        "discord.js": "^14.25.1",
+        "dotenv": "^17.2.3"
+    }
 }
